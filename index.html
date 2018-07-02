@@ -243,6 +243,129 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/02/用npm安装express/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="JC-Guy">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/1.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Bloc of JC-Guy">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/02/用npm安装express/" itemprop="url">用npm安装express</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-02T23:52:05+08:00">
+                2018-07-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>首先保证node和npm的安装都没问题<br><br>然后进入正题，安装express:<br><br><span style="color:red">首先要配置环境变量</span>，具体步骤可以百度，然后进入安装过程。<br>在命令行下输入：</p>
+<p><ol></ol></p>
+<p><li>npm install express -g </li></p>
+<p><li>npm install -g express-generator</li></p>
+<p>一般来说，这里就应该安装好了express.</p><br><br>修改npm安装模块的全局路径和缓存路径(首先你要自己在目录下新建node_global和node_cache文件夹)：<br><ol><br><li>npm config set prefix “E:\nodejs\node_global”</li><br><li>npm config set cache “E:\nodejs\node_cache”</li><br><li>npm config get prefix检验是否更改了安装路径 </li><br></ol><br>安装完以后，应该会在E:\nodejs\node_global中出现express和一个node_nodules文件夹，并且里面有东西。<br><p>网上说检查express版本用语句express -V,可是命令行提示我没有-V 这个命令，于是我重装了好多次，仍旧没用，但使用<span style="color:red">express –version</span>就可以检测出版本，网上的也不能全信~</p>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/19/纯CSS绘制三角形/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -759,7 +882,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
